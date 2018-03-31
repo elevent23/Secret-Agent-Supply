@@ -1,0 +1,153 @@
+html{
+  font-size: 11px;
+}
+
+
+.sitecontainter{
+  width: 760px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position:relative;
+  left: 260px;
+}
+/** Header **/
+header{
+  background-color: black;
+  font-size: 1rem;
+  font-family: Helvetica;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+header img{
+  height: 1.5rem;
+  margin: 0.5rem;
+}
+
+header h1{
+  color: white;
+  position: relative;
+}
+
+/** New Arrival **/
+
+.BackgroundImg{
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg');
+  width: 100%;
+  height: 25rem;
+}
+
+.NewArrival{
+  background-color: black;
+  width: 20rem;
+  position: relative;
+  top: 9rem;
+}
+
+.NewArrival h3{
+  font-weight: bold;
+  font-family: Helvetica;
+  color: white;
+  font-size: 1rem;
+  padding-top: 2rem;
+  margin-left: 3rem;
+}
+
+.NewArrival h1{
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 0.25rem;
+}
+
+/** Sale **/
+
+.sale{
+  background: firebrick;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.sale h4{
+  color: white;
+  font-family: Helvetica;
+  margin: 0.75rem auto;
+}
+
+/** More Items on Sale with images **/
+
+.imgSale{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.imgs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgs img{
+  height: 6rem;
+  padding: 2rem;
+  border: 4px solid black;
+  margin-top: 3rem;
+  width: 7rem;
+}
+
+.imgs h4{
+
+}
+
+.text{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  color: white;
+  padding: 0.5rem;
+  font-family: Helvetica;
+}
+
+.whole{
+  display: flex;
+}
+
+.whole .loc{
+  margin-right: 26.5rem;
+}
+
+.text2{
+  padding: 0.5rem;
+  font-family: Helvetica;
+  color: white;
+  background-color: black;
+  width: 10.5rem;
+  margin-bottom: 2rem;
+
+}
+
+.coord{
+  margin-bottom: 2rem;
+}
+
+
+/** footer **/
+
+footer{
+  height: 10rem;
+  background-color: black;
+  color: white;
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  align-items: center;
+}
